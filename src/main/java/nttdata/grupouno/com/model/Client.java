@@ -21,6 +21,7 @@ public class Client {
     private String id;
     @NotEmpty(message = "El número de Documento no puede ser vacio")
     private String documentNumber;
+    private String name;
     @NotEmpty(message = "El tipo de documento no puede ser vacio")
     private String documentType;
     @NotNull(message = "El número de cel. no puede ser vacio")
